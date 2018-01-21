@@ -9,8 +9,9 @@ class Profile extends React.Component{
 
                 <div className="profile__info">
                     <div className="profile__info__name-container">
-                        <p className="name"></p>
-                        <p>Uros Randelovic</p>
+                        <p className="name" profileName="Uros R">
+                            {this.props.profileName}
+                        </p>
                     </div>
 
                     <p className="profile__info__description">

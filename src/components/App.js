@@ -8,13 +8,15 @@ class App extends React.Component{
     render(){
         return(
             <div className="App">
-                <Account className="account" />
+            <Header className="top"  />
+            <Carousel className="profile" />
             </div>
         )
     }
 
+    // <Account className="account" />
                 // <Header className="top"  />
-                // <Carousel className="profile" />
+                // <Header className="top"  />
 }
 
 export default App;

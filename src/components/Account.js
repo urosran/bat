@@ -5,11 +5,10 @@ import Profile from './Profile';
 class Account extends React.Component{
     render(){
         return(
-            <div className="account">
+            <div className="account" >
                 <Header />
-                <p>Your Account</p>
+                    <p>Your Account</p>
                 <Profile />
-
             </div>
         )
     }
