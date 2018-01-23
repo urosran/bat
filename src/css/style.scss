@@ -1,6 +1,17 @@
+// //fonts
+
+// font-family: 'Amatic SC', cursive;
+// font-family: 'Playfair Display SC', serif;
+// font-family: 'Cabin Sketch', cursive;
+// font-family: 'Fredericka the Great', cursive;
+
+
+
+
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
 }
 
 .App{
@@ -15,15 +26,17 @@
 .btn{
     margin: 0 auto;
     align-content: center;
-    margin-top: 20%;
-    background-color: #2959b9;
-    font-family: Lobster;
+    margin-top: 30px;
+    background:linear-gradient(to bottom right,#c1f364, #2959b9);
+    // background-color: #2959b9;
+    font-family: 'Amatic SC', cursive;
+
     border-radius: 30px;
-    height: 3em;
+    height: 2em;
     width: 8em;
     color: white;
     outline: 0;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
 
 
@@ -40,18 +53,26 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Amatic SC', cursive;
     color: white;
+
+
     .selector{
-        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-top: 10px;
         width: 40%;
         border-style: solid;
         border-radius: 4px;
         padding: 5px;
-        font-size: 20px;
+        //fonts
+        font-size: 40px;
+        font-family: 'Amatic SC', cursive;
         outline: 0;
-        background-color: transparent;
-        color: whitesmoke;
+        background-color:rgba(255, 255, 255, 0.8);
+        color: gray;
     }
 }
 .Header{
@@ -67,7 +88,9 @@
     //fonts
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
+
     border-style: line;
+    font-size: 22px;
 }
 
 /* profile class */

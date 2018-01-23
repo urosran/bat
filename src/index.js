@@ -10,6 +10,7 @@ import './css/style.scss';
 //components
 import App from './components/App';
 import HallPicker from './components/HallPicker'
+import Account from './components/Account';
 
 
 const NoMatch = () => {
@@ -22,7 +23,9 @@ const Root = () => {
     <Router>
         <Switch>
             <Route exact path='/' component={HallPicker} />
-            <Route exact path='/App' component={App} />
+            <Route exact path='/app' component={App} />
+            <Route exact path='/account' component={Account} />
+
             <Route component={NoMatch}/>
         </Switch>
     </Router>
@@ -30,7 +33,9 @@ const Root = () => {
 }
 
 
-
+// HallPicker.contextTypes = {
+//     router: React.PropTypes.object
+// }
 
 
 ReactDOM.render(<Root />, document.getElementById('main'));
