@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 //css
-import './css/style.scss';
+import './css/style.css';
 //components
 import App from './components/App';
 import HallPicker from './components/HallPicker'
@@ -14,7 +14,7 @@ import Account from './components/Account';
 
 
 const NoMatch = () => {
-    return(<h1>404 DINASOUR</h1>)
+    return <h1>404 DINASOUR</h1>
 }
 
 const Root = () => {
