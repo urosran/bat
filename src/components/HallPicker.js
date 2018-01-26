@@ -23,11 +23,11 @@ class HallPicker extends React.Component{
         this.setState({value: event.target.value});
       }
       handleSubmit(event) {
-        alert('Your favorite flavor is: ' + this.state.value);
+        // alert('Your favorite flavor is: ' + this.state.value);
         event.preventDefault();
         if(this.state.value==='usdan'){
             <Link to='./usdan'></Link>
-            alert('Your favorite flavor is: ' + this.state.value);
+            // alert('Your favorite flavor is: ' + this.state.value);
 
         }
 
