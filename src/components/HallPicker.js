@@ -6,6 +6,7 @@ import App from './App';
 import Account from './Account';
 
 
+
 //https://scotch.io/tutorials/routing-react-apps-the-complete-guide
 // https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
 // https://reacttraining.com/react-router/web/api/Route
@@ -26,7 +27,9 @@ class HallPicker extends React.Component{
         // alert('Your favorite flavor is: ' + this.state.value);
         event.preventDefault();
         if(this.state.value==='usdan'){
-            <Link to='./usdan'></Link>
+            <Link to='./usdan'>
+
+            </Link>
             // alert('Your favorite flavor is: ' + this.state.value);
 
         }
@@ -35,10 +38,6 @@ class HallPicker extends React.Component{
             <Route path={this.state.value} Component={App} />
             <Route path='/sherman' Component={Account} />
         </Switch>
-
-
-
-
       }
 
     render(){
@@ -54,7 +53,9 @@ class HallPicker extends React.Component{
                                 <option value="sherman">Sherman</option>
                             </select>
                         </label>
-                        <input type="submit" value="See who's there" className='btn' />
+                        <Link to="./app">
+                            <input type="submit" value="See who's there" className='btn' />
+                        </Link>
                     </form>
 
                 </div>
