@@ -5,9 +5,14 @@ import Route from 'react-router-dom/Route';
 import App from './App';
 import Account from './Account';
 
+
+//https://scotch.io/tutorials/routing-react-apps-the-complete-guide
+// https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
+// https://reacttraining.com/react-router/web/api/Route
+
 class HallPicker extends React.Component{
 
-    constructor(props) {
+     constructor(props) {
         super(props);
         this.state = {value: 'usdan'};
 
