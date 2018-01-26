@@ -23,24 +23,7 @@
 
   }
 
-.btn{
-    margin: 0 auto;
-    align-content: center;
-    margin-top: 30px;
-    background:linear-gradient(to bottom right,#c1f364, #2959b9);
-    // background-color: #2959b9;
-    font-family: 'Amatic SC', cursive;
 
-    border-radius: 30px;
-    height: 2em;
-    width: 8em;
-    color: white;
-    outline: 0;
-    font-size: 25px;
-    padding: 0;
-
-
-}
 .general{
     background-image:url("https://s.hswstatic.com/gif/13-people-at-table-orig.jpg");
     height: 100vh;
@@ -55,11 +38,12 @@
     padding-top: 10%;
     font-family: 'Amatic SC', cursive;
     color: white;
-
+    font-size: 1em;
 
     .selector{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin: 0 auto;
         margin-top: 20px;
         padding-top: 10px;
@@ -67,12 +51,33 @@
         border-style: solid;
         border-radius: 4px;
         padding: 5px;
+        min-height: 2em;
+        min-width: 8em;
         //fonts
         font-size: 40px;
         font-family: 'Amatic SC', cursive;
         outline: 0;
         background-color:rgba(255, 255, 255, 0.8);
         color: gray;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-content: center;
+        margin-top: 30px;
+        background:linear-gradient(to bottom right,#c1f364, #2959b9);
+        // background-color: #2959b9;
+        font-family: 'Amatic SC', cursive;
+        padding: 20px;
+        border-radius: 30px;
+
+        color: white;
+        outline: 0;
+        font-size: 1em;
+
+
+
     }
 }
 .Header{
